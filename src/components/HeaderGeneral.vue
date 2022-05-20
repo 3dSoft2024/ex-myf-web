@@ -17,10 +17,10 @@
                     <li><router-link class="dropdown-item" to="/vidrios">Pulido de Vidrios</router-link></li>
                     <li><router-link class="dropdown-item" to="/repelente">Repelente Hidrofóbico</router-link></li>
                 </ul>
-                <router-link class="nav-link d-flex flex-row align-items-center me-2" to="/gallery">
+                <router-link class="nav-link d-flex flex-row align-items-center me-2" to="/galeria">
                     <p class="m-0 text-light">GALERIA</p>
                 </router-link>
-                <router-link class="nav-link d-flex flex-row align-items-center me-2" to="/contact">
+                <router-link class="nav-link d-flex flex-row align-items-center me-2" to="/contacto">
                     <p class="m-0 text-light">CONTACTO</p>
                 </router-link>
                 <div class="linea bg-light"></div>
