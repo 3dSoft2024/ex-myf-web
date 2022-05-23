@@ -13,8 +13,8 @@
                     <img src="@/assets/phones.svg" class="me-3" alt="position">
                     <div class="d-flex flex-column align-items-start">
                         <p class="fw-bold fs-5 text-light mb-0">NÚMEROS</p>
-                        <p class="fs-6 text-light mb-0 text-start">939099191</p>
-                        <p class="fs-6 text-light mb-0 text-start">973980345</p>
+                        <p class="fs-6 text-light mb-0 text-start">991609219</p>
+                        <p class="fs-6 text-light mb-0 text-start">984286881</p>
                     </div>
                 </div>
                 <div class="item_contacto d-flex flex-row align-items-center justify-content-center">
@@ -38,7 +38,7 @@
     iframe
         margin-bottom: -8px
     .item_contacto
-        width: 32%
+        width: 33%
         img
             height: 65px
     .data
@@ -51,7 +51,7 @@
     .container-contacto
         flex-wrap: wrap
         .item_contacto
-            width: 32%
+            width: 33%
             img
                 height: 45px
             p

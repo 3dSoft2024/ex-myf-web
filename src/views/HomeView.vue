@@ -2,22 +2,22 @@
   <div class="home">
     <CarouselGeneral></CarouselGeneral>
     <div class="services d-flex container flex-row justify-content-between py-5">
-      <div class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
+      <router-link to="/parabrisas" class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
         <img src="@/assets/parabrisas.svg" alt="parabrisas" class="d-flex align-self-start" />
         <p class="fs-4 fw-bold mb-0 mt-5 text-end">REPARACIÓN DE PARABRISAS</p>
-      </div>
-      <div class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
+      </router-link>
+      <router-link to="/faros" class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
         <img src="@/assets/faros.svg" alt="faros" class="d-flex align-self-start" />
         <p class="fs-4 fw-bold mb-0 mt-5 text-end">PULIDO DE FAROS</p>
-      </div>
-      <div class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
+      </router-link>
+      <router-link to="/vidrios" class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
         <img src="@/assets/pulido.svg" alt="pulido" class="d-flex align-self-start" />
         <p class="fs-4 fw-bold mb-0 mt-5 text-end">PULIDO DE VIDRIOS</p>
-      </div>
-      <div class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
+      </router-link>
+      <router-link to="/repelente" class="d-flex item_services p-4 flex-column align-items-center justify-content-center">
         <img src="@/assets/spray.svg" alt="spray" class="d-flex align-self-start" />
         <p class="fs-4 fw-bold mb-0 mt-5 text-end">REPELENTE HIDROFÓBICO</p>
-      </div>
+      </router-link>
     </div>
     <div class="gallery flex-row justify-content-between py-4 bg-dark">
       <div class="container">
@@ -31,7 +31,7 @@
         <div class="item_bussines ms-4 logo">
           <img src="@/assets/logo_v.svg" alt="Logo MYF" />
         </div>
-        <div class="item_bussines me-4 info">
+        <div class="item_bussines px-4 info">
           <h3 class="fs-3 fw-bold">¿Quienes Somos?</h3>
           <p class="fs-5" style="text-align: justify">
             <b>MyF Reparaciones</b> es una empresa prestadora de servicios automotrices, especializada en reparación, mantenimiento y restauración de parabrisas, pulido de vidrios, pulido de faros. Contamos con experiencia y años de trayectoria y estamos en capacitación permanente. Brindamos asistencia de calidad respaldada por tecnología vanguardista y personal capacitado en proveer una solución rápida, confiable, eficaz y económica a los problemas de su vehículo. Aspiramos ser reconocidos en Perú como líderes generar confianza en nuestros clientes, sobresalir y afianzar nuestros servicios en el mercado automotriz.
@@ -63,9 +63,9 @@ export default {
 
 <style lang="sass">
 .item_bussines
-  width: 40%
+  width: 45%
   img
-    width: 90%
+    width: 80%
 .item_services
   cursor: pointer
   transition: all 0.1s ease
@@ -103,8 +103,11 @@ export default {
 @media (max-width: 600px)
   .item_services
     width: 49% !important
+    img
+      height: 80px
   .item_bussines
     margin: 0px !important
+    
     p
       font-size: 18px !important
 </style>

@@ -24,7 +24,7 @@
                     <p class="m-0 text-light">CONTACTO</p>
                 </router-link>
                 <div class="linea bg-light"></div>
-                <div class="redes d-flex flex-row">
+                <div class="redes d-flex flex-row pb-2">
                     <a href="https://www.facebook.com/Restauraciondeparabrisasypulidodevidrioss">
                         <img src="@/assets/fb.svg" alt="fb" class="mx-2 ms-3">
                     </a>
