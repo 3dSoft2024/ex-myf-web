@@ -4,8 +4,12 @@
     <div class="container d-flex flex-row">
       <div class="col-6 d-flex justify-content-center align-items-center flex-column">
         <h3 class="fw-bold">¿Necesitas una cotización?</h3>
-        <p>¡No dude en ponerse en contacto con nosotros! Nos encanta el desafío de convertir sus ideas en realidad y siempre estamos listos para hablar sobre cualquier mensaje.</p>
-        <img src="@/assets/contact-img.png" style="width: 70%" />
+        <p>¡No dude en ponerse en contacto con nosotros! Nos encanta el desafío de convertir sus ideas en realidad y siempre estamos listos para hablar sobre cualquier consulta.</p>
+        <a target="_blank" href="https://wa.me/51984286881?text=Buen%20día%20*MYF%20Reparaciones*,%20solicito%20información%20acerca%20del%20servicio." class="mb-4 p-2 rounded text-light d-flex flex-row align-items-center justify-content-center" style="cursor: pointer; background: #25d366 !important; text-decoration: none;">
+          <img src="@/assets/wz.svg" class="me-1" style="height: 25px">
+          <p class="m-0">Escríbenos!</p>
+        </a>
+        <img class="img-contact" src="@/assets/contact-img.png" style="width: 60%" />
       </div>
       <div class="col-6 d-flex justify-content-center align-items-center p-4">
         <b-form @submit="onSubmit" v-if="show" class="w-100 bg-light p-3 rounded" >
@@ -122,7 +126,8 @@ export default {
     ...mapActions(["sendMail"]),
     onSubmit(){
       event.preventDefault();
-      this.sendMail({email: this.form.email, name: this.form.name, number: this.form.number, marca: this.form.marca, modelo:this.form.modelo, message: this.form.message});
+      var aux = this.form;
+      this.sendMail(aux);
     }
   }
 };
@@ -141,7 +146,7 @@ export default {
     .col-6
       width: 100% !important
       margin: 20px 0px
-      img
+      .img-contact
         width: 55% !important
         margin-bottom: 20px
 

@@ -15,7 +15,7 @@ export default new Vuex.Store({
   mutations: {
   },
   actions: {
-    sendMail(obj){
+    sendMail(context,obj){
       console.log(obj);
       $.ajax({
 				// En data puedes utilizar un objeto JSON, un array o un query string
