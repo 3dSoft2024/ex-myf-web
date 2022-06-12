@@ -6,14 +6,13 @@
                     <img src="@/assets/position.svg" class="me-3" alt="position">
                     <div class="d-flex flex-column align-items-start">
                         <p class="fw-bold fs-5 text-light mb-0">DIRECCIÓN</p>
-                        <p class="fs-6 text-light mb-0 text-start">4578 Marmora Road, Glasgow</p>
+                        <p class="fs-6 text-light mb-0 text-start">Av Micaela Bastidas 825, Sector 19  Mz J Lt 22 V.E.S.</p>
                     </div>
                 </div>
                 <div class="item_contacto d-flex flex-row align-items-center justify-content-center">
                     <img src="@/assets/phones.svg" class="me-3" alt="position">
                     <div class="d-flex flex-column align-items-start">
                         <p class="fw-bold fs-5 text-light mb-0">NÚMEROS</p>
-                        <p class="fs-6 text-light mb-0 text-start">991609219</p>
                         <p class="fs-6 text-light mb-0 text-start">984286881</p>
                     </div>
                 </div>

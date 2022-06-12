@@ -1,7 +1,7 @@
 <template>
-    <div class="d-flex flex-row w-100 container mb-4"> 
+    <div class="d-flex flex-row w-100 container my-2"> 
         <div class="w-50 d-flex flex-column justify-content-start align-items-center p-4 item">
-            <h3 class="text-primary fw-bold align-self-start mb-0">Beneficios:</h3>
+            <h3 class="text-primary fw-bold align-self-start mb-0">{{title}}</h3>
             <hr class="bg-primary mt-1 mb-2 align-self-start" style="width: 50px; height: 3px; opacity: 1">
             <div v-for="(item,index) in items" :key="index" class="d-flex flex-row justify-content-start align-items-center w-100 ms-5 mb-2 mt-1">
                 <img src="@/assets/check.svg" class="me-2" style="height: 20px">
@@ -24,7 +24,7 @@ export default {
         title: {
             required: false,
             type: String,
-            default: 'Default'
+            default: 'Beneficios:'
         },
         img: {
             required: false,

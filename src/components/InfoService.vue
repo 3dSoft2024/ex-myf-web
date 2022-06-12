@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row w-100 container mt-4">
+  <div class="d-flex flex-row w-100 container my-2">
     <div class="w-50 p-2 item d-flex justify-content-center align-items-center">
       <img :src="img" class="w-100" />
     </div>

@@ -26,14 +26,14 @@
         <CarouselGaleria></CarouselGaleria>
       </div>
     </div>
-    <div class="business flex-row justify-content-between py-4 bg-light">
+    <div class="business flex-row justify-content-between py-2 bg-light">
       <div class="business_container container d-flex flex-row justify-content-between py-4 align-items-center">
         <div class="item_bussines ms-4 logo">
           <img src="@/assets/logo_v.svg" alt="Logo MYF" />
         </div>
         <div class="item_bussines px-4 info">
           <h3 class="fs-3 fw-bold">¿Quienes Somos?</h3>
-          <p class="fs-5" style="text-align: justify">
+          <p class="fs-5 m-0" style="text-align: justify">
             <b>MyF Reparaciones</b> es una empresa prestadora de servicios automotrices, especializada en reparación, mantenimiento y restauración de parabrisas, pulido de vidrios, pulido de faros. Contamos con experiencia y años de trayectoria y estamos en capacitación permanente. Brindamos asistencia de calidad respaldada por tecnología vanguardista y personal capacitado en proveer una solución rápida, confiable, eficaz y económica a los problemas de su vehículo. Aspiramos ser reconocidos en Perú como líderes generar confianza en nuestros clientes, sobresalir y afianzar nuestros servicios en el mercado automotriz.
           </p>
         </div>
@@ -74,6 +74,9 @@ export default {
   width: 22%
   margin-top: -150px
   z-index: 99
+  &:hover
+    transition: all 0.3s ease
+    transform: translateY(-20px)
   img
     height: 100px
   p
