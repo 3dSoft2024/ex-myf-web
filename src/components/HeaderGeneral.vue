@@ -4,11 +4,11 @@
             <div class="logo">
                 <img class="logo" src="@/assets/logo_blanco.svg">
             </div>
-            <nav class="d-flex flex-row align-items-center dropdown">
-                <router-link class="nav-link d-flex flex-row align-items-center me-2" to="/">
+            <nav class="d-flex flex-row align-items-center gap-3 dropdown">
+                <router-link class="nav-link d-flex flex-row align-items-center" to="/">
                     <p class="m-0 text-light">INICIO</p>
                 </router-link>
-                <div class="nav-link d-flex flex-row align-items-center me-2 dropdown-toggle text-light" id="services" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-link d-flex flex-row align-items-center dropdown-toggle text-light" id="services" data-bs-toggle="dropdown" aria-expanded="false">
                     <p class="m-0 text-light ">SERVICIOS</p>
                 </div>
                 <ul class="dropdown-menu" aria-labelledby="services">
@@ -17,10 +17,10 @@
                     <li><router-link class="dropdown-item" to="/vidrios">Pulido de Vidrios</router-link></li>
                     <li><router-link class="dropdown-item" to="/repelente">Repelente Hidrofóbico</router-link></li>
                 </ul>
-                <router-link class="nav-link d-flex flex-row align-items-center me-2" to="/galeria">
+                <router-link class="nav-link d-flex flex-row align-items-center" to="/galeria">
                     <p class="m-0 text-light">GALERIA</p>
                 </router-link>
-                <router-link class="nav-link d-flex flex-row align-items-center me-2" to="/contacto">
+                <router-link class="nav-link d-flex flex-row align-items-center" to="/contacto">
                     <p class="m-0 text-light">CONTACTO</p>
                 </router-link>
                 <div class="linea bg-light"></div>

@@ -21,7 +21,7 @@ export default {
         img: {
             required: false,
             type: String,
-            default: require("@/assets/title2.jpg")
+            default: require("@/assets/title2.webp")
         },
         wsp:{
             required: false,

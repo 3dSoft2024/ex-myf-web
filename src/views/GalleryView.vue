@@ -14,62 +14,62 @@
       <label class="form-check-label option btn btn-outline-primary m-2" for="repelente">REPELENTE</label>
     </nav>
     <div class="container d-flex flex-wrap flex-row my-3 justify-content-center align-items-center">
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas1.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas1.webp')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas2.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas2.webp')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas3.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas3.webp')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas4.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas4.webp')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas5.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_parabrisas5.webp')})`, cursor: 'pointer'}" v-if="Filtrar('parabrisas')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros1.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros1.webp')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros2.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros2.webp')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros3.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros3.webp')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros4.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros4.webp')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros5.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_faros5.webp')})`, cursor: 'pointer'}" v-if="Filtrar('faros')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_vidrios1.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('vidrios')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_vidrios1.webp')})`, cursor: 'pointer'}" v-if="Filtrar('vidrios')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>
       </div>
-      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_vidrios2.jpg')})`, cursor: 'pointer'}" v-if="Filtrar('vidrios')">
+      <div class="item d-flex justify-content-center align-items-center m-2" :style="{backgroundImage : `url(${require('@/assets/galeria_vidrios2.webp')})`, cursor: 'pointer'}" v-if="Filtrar('vidrios')">
         <div class="texto w-100 h-100 d-flex justify-content-center align-items-center" style="background: rgba(0, 0, 0, 0.7); opacity: 0;">
           <p class="text-light" style="width: 80%">Texto de Ejemplo</p>
         </div>

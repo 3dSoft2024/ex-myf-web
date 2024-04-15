@@ -9,7 +9,7 @@
           <img src="@/assets/wz.svg" class="me-1" style="height: 25px">
           <p class="m-0">Escríbenos!</p>
         </a>
-        <img class="img-contact" src="@/assets/contact-img.png" style="width: 60%" />
+        <img class="img-contact" src="@/assets/contact-img.webp" style="width: 60%" />
       </div>
       <div class="col-6 d-flex justify-content-center align-items-center p-4">
         <b-form @submit="onSubmit" v-if="show" class="w-100 bg-light p-3 rounded" >
